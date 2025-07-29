@@ -15,9 +15,9 @@ export function HomePage() {
         Welcome to {`Mr Seb's`} Blog
       </h1>
       <p className="mb-4">
-        Explore my latest articles, tutorials, and insights on software
+        {`Explore my latest articles, tutorials, and insights on software
         development, technology trends, and more. Whether you're a beginner or
-        an experienced developer, there's something here for everyone.
+        an experienced developer, there's something here for everyone.`}
       </p>
       {categories.map((category) => (
         <div key={category} className="flex flex-col">
