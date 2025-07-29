@@ -1,6 +1,6 @@
 import Logo from "@/components/ui/logo";
 import { memo } from "react";
-import { FaGithub, FaLinkedin, FaRss } from "react-icons/fa";
+import { FaLinkedin, FaRss } from "react-icons/fa";
 
 import {
   LINKEDIN_URL,
@@ -16,11 +16,6 @@ const SOCIAL_LINKS = [
     href: LINKEDIN_URL,
     icon: FaLinkedin,
     label: "Follow us on LinkedIn",
-  },
-  {
-    href: GITHUB_URL,
-    icon: FaGithub,
-    label: "Follow us on GitHub",
   },
   {
     href: RSS_URL,
@@ -101,7 +96,7 @@ export default function Footer() {
             </div>
 
             {/* Center: Legal Links */}
-            <LegalLinks />
+            {/* <LegalLinks /> */}
 
             {/* Right: Social Links */}
             <SocialLinks />

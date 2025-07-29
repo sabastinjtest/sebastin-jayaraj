@@ -3,22 +3,22 @@
 
 // Base URLs
 export const BASE_URL =
-  process.env.NEXT_PUBLIC_BASE_URL || "https://findoora-docs.vercel.app";
+  process.env.NEXT_PUBLIC_BASE_URL || "https://sebastin-jayaraj.vercel.app";
 export const BASE_API_URL =
   process.env.NEXT_PUBLIC_BASE_API_URL || `${BASE_URL}`;
 
 // Social links
 export const GITHUB_URL =
-  "https://github.com/muralitmuthuhotmail/findoora-docs";
+  "https://github.com/muralitmuthuhotmail/sebastin-jayaraj";
 export const GITHUB_ISSUES_URL =
-  "https://github.com/muralitmuthuhotmail/findoora-docs/issues";
+  "https://github.com/muralitmuthuhotmail/sebastin-jayaraj/issues";
 export const TWITTER_URL = "https://twitter.com/findoora";
 export const INSTAGRAM_URL = "https://instagram.com/findoora";
-export const LINKEDIN_URL = "https://www.linkedin.com/in/murali-thangamuthu";
+export const LINKEDIN_URL = "https://www.linkedin.com/in/sebastin-jayaraj-tamilarasan-706aa8a5/";
 
 // Site info
-export const SITE_NAME = "findoora";
-export const SITE_SUB_TITLE = "docs";
+export const SITE_NAME = "Mr Seb";
+export const SITE_SUB_TITLE = "blogs";
 export const SITE_DESCRIPTION =
   "Findoora is a modern documentation platform built with Next.js and shadcn/ui";
 export const SITE_KEYWORDS = [
