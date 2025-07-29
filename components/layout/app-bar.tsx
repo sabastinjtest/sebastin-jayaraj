@@ -4,13 +4,11 @@ import {
 } from "@/components/layout/mobile-navigation";
 import { SearchButton } from "@/components/layout/search-button";
 import { ThemeToggle } from "@/components/layout/theme-toggle";
-import { Button } from "@/components/ui/button";
 import Logo from "@/components/ui/logo";
-import { GITHUB_URL, SITE_NAME, SITE_SUB_TITLE } from "@/lib/config";
+import { SITE_NAME, SITE_SUB_TITLE } from "@/lib/config";
 import { cn } from "@/lib/utils";
 import { Search } from "lucide-react";
 import Link from "next/link";
-import { FaGithub } from "react-icons/fa";
 
 interface AppBarProps {
   className?: string;

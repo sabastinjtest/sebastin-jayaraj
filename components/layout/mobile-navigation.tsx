@@ -10,11 +10,8 @@ import {
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet";
-import { GITHUB_URL } from "@/lib/config";
 import { Menu } from "lucide-react";
-import Link from "next/link";
 import { useEffect, useState } from "react";
-import { FaGithub } from "react-icons/fa";
 
 export interface NavigationItem {
   title: string;

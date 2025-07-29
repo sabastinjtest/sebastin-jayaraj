@@ -1,6 +1,6 @@
 import Logo from "@/components/ui/logo";
 import { memo } from "react";
-import { FaGithub, FaLinkedin, FaRss } from "react-icons/fa";
+import { FaLinkedin, FaRss } from "react-icons/fa";
 
 import {
   LINKEDIN_URL,
