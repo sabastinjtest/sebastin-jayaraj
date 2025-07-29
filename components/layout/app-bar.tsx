@@ -104,7 +104,7 @@ export function AppBar({
           <ThemeToggle />
 
           {/* GitHub Link */}
-          <Button size="sm" asChild className="hidden sm:inline-flex">
+          {/* <Button size="sm" asChild className="hidden sm:inline-flex">
             <a
               href={GITHUB_URL}
               target="_blank"
@@ -114,7 +114,7 @@ export function AppBar({
               <FaGithub />
               GitHub
             </a>
-          </Button>
+          </Button> */}
           <MobileNavigation navigationData={navigationData} />
         </div>
       </div>

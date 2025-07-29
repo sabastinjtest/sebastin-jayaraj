@@ -18,11 +18,6 @@ const SOCIAL_LINKS = [
     label: "Follow us on LinkedIn",
   },
   {
-    href: GITHUB_URL,
-    icon: FaGithub,
-    label: "Follow us on GitHub",
-  },
-  {
     href: RSS_URL,
     icon: FaRss,
     label: "Subscribe to RSS feed",
@@ -101,7 +96,7 @@ export default function Footer() {
             </div>
 
             {/* Center: Legal Links */}
-            <LegalLinks />
+            {/* <LegalLinks /> */}
 
             {/* Right: Social Links */}
             <SocialLinks />

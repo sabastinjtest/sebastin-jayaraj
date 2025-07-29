@@ -1,6 +1,7 @@
 "use client";
 
 import Logo from "@/components/ui/logo";
+import { SITE_NAME } from "@/lib/config";
 import { cn } from "@/lib/utils";
 import { motion, AnimatePresence } from "framer-motion";
 import { FC } from "react";
@@ -38,7 +39,7 @@ export const SplashScreen: FC<SplashScreenProps> = ({
             <Logo
               iconVariant="gradient"
               size="xl"
-              text="findoora"
+              text={SITE_NAME}
               orientation="vertical"
               interactive={false}
             />
