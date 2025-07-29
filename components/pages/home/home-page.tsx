@@ -12,10 +12,12 @@ export function HomePage() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        Findoora Docs
+        Welcome to {`Mr Seb's`} Blog
       </h1>
       <p className="mb-4">
-        {`Explore our comprehensive documentation, tutorials, and guides on modern web development, TypeScript, React, and software engineering best practices.`}
+        Explore my latest articles, tutorials, and insights on software
+        development, technology trends, and more. Whether you're a beginner or
+        an experienced developer, there's something here for everyone.
       </p>
       {categories.map((category) => (
         <div key={category} className="flex flex-col">

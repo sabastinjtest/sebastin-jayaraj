@@ -71,7 +71,7 @@ export function MobileNavigation({ navigationData }: MobileNavigationProps) {
               onNavigate={handleNavigate}
             />
           </div>
-          <div className="p-4 pb-5 flex flex-col border-t-1 gap-3 justify-center items-baseline mt-auto bg-muted/50">
+          {/* <div className="p-4 pb-5 flex flex-col border-t-1 gap-3 justify-center items-baseline mt-auto bg-muted/50">
             <Button variant="gradient" className="w-full" asChild>
               <Link
                 href={GITHUB_URL}
@@ -82,7 +82,7 @@ export function MobileNavigation({ navigationData }: MobileNavigationProps) {
                 <FaGithub /> View on GitHub
               </Link>
             </Button>
-          </div>
+          </div> */}
         </div>
       </SheetContent>
     </Sheet>
